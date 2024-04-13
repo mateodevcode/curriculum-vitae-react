@@ -25,7 +25,7 @@ function HistoryComplement() {
         {/* Historial Complementarios */}
 
         <div className="historyExp flex flex-row justify-center items-start">
-          <div className="flex flex-col justify-center items-center mr-4">
+          <div className="flex flex-col justify-center items-center pl-1 mr-4">
             <div className="w-4 h-4 bg-gray-400 rounded-full"></div>
             <div className="bg-gray-400 w-1 h-72 -mt-2"></div>
           </div>
