@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Configuración de historial */
+
+.punto-historial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.barra-historial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+
+/* Configuración de historial */
+

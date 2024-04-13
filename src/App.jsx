@@ -6,7 +6,7 @@ function App() {
   return (
     
     <div className="flex flex-col justify-start items-center px-80">
-      <div className="border-black border-x-2">
+      <div className="w-full">
       <Target/>
       <HistoryDeploy />
       </div>
