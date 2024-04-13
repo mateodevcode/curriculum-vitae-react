@@ -1,8 +1,8 @@
 function HistoryExp() {
   return (
-    <div>
-      
-    </div>
+    <p className="text-3xl text-red-800">
+      Hola Mundo
+    </p>
   )
 }
 
