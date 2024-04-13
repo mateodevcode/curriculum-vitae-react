@@ -2,8 +2,8 @@ import React from "react";
 
 function Target() {
   return (
-    <div className="t-main flex flex-col justify-center items-center bg-gray-950 border-black border-2 rounded-xl mx-10 my-10 w-80 h-auto p-16 pb-2 text-gray-100 ">
-      <div className="t-name mb-3 text-xl">Reineiro Monterrosa </div>
+    <div className="t-main flex flex-col justify-start items-center bg-gray-950 border-black border-2 rounded-xl mx-80 mt-8 w-80 h-auto p-16 pb-2 text-gray-100 ">
+      
       <div className="t-descripcion text-xs bg-gray-800 rounded-md p-1">
         Software developer
       </div>
