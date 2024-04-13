@@ -1,16 +1,16 @@
-import HistoryDeploy from "./components/HistoryDeploy"
-import Target from "./components/Target"
-
+import HistoryDeploy from "./components/HistoryDeploy";
+import Target from "./components/Target";
+import Tittle from "./components/Tittle";
 
 function App() {
   return (
-    
-    <div className="flex flex-col justify-start items-center px-80">
+    <div className="flex flex-col justify-start items-center ">
       <div className="w-full">
-      <Target/>
-      <HistoryDeploy />
+        <Tittle />
+        <Target />
+        <HistoryDeploy />
       </div>
     </div>
-  )
+  );
 }
-export default App
+export default App;
