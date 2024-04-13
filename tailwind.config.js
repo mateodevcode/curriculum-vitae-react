@@ -14,5 +14,5 @@ export default {
       // => @media (min-width: 1440px) { ... }
     },
   },
-  plugins: [require("tailwindcss-animated")],
+  // plugins: [require("tailwindcss-animated")],
 };
