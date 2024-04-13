@@ -1,9 +1,13 @@
 import HistoryDeploy from "./components/HistoryDeploy"
+import Target from "./components/Target"
+
 
 function App() {
   return (
-    <div>
-      <h1>My React App</h1>
+    
+    <div className="flex justify-start items-center ">
+      <Target/>
+      <HistoryDeploy />
     </div>
   )
 }
