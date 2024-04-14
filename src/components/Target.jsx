@@ -7,6 +7,8 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
 import { VscGithub } from "react-icons/vsc";
 import AboutMe from "./AboutMe";
+import { PDFDownloadLink } from "@react-pdf/renderer";
+import PrintPdf from "./PrintPdf";
 
 function Target() {
   return (
@@ -71,7 +73,18 @@ function Target() {
           </div>
         </div>
         <div className="t-linkedin bg-blue-600 rounded-md text-sm cursor-pointer hover:bg-blue-400 text-gray-100 font-bold p-2 px-3 mt-6 mb-4">
-          Descargar
+          <PDFDownloadLink
+            document={<PrintPdf />}
+            fileName="CurriculumVitae.pdf"
+          >
+            {({ loading }) =>
+              loading ? (
+                <button>loading Document ...</button>
+              ) : (
+                <button>Descargar</button>
+              )
+            }
+          </PDFDownloadLink>
         </div>
       </div>
       <AboutMe />
