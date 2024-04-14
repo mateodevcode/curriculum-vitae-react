@@ -1,16 +1,14 @@
 import React from "react";
 import perfil from "../img/perfil.png";
-import { GrLinkedin } from "react-icons/gr";
+
 import AboutMe from "./AboutMe";
+import Header from "./Header";
 
 function Tittle() {
   return (
     <div className=" flex flex-col h-36">
       <div>
-        <div className=" w-52 h-52 absolute mt-12 ml-24 text-transparent border-solid border-2 border-violet-600">
-          PHOTO
-        </div>
-        <div className="  w-52 h-52 absolute  ml-24 mt-12 text-transparent ">
+        <div className="  w-52 h-52 absolute  ml-24 mt-24 text-transparent ">
           <div>
             <img
               className="rounded-full border-blue-900 border-solid border-2 w-52 h-52"
@@ -19,10 +17,8 @@ function Tittle() {
             />
           </div>
         </div>
-        <div className="cursor-pointer ml-10">
-          <GrLinkedin className="text-indigo-600 absolute rounded-lg hover:bg-gray-700 cursor-pointer w-10 h-10  p-1 text-3xl ml-14 pt-1 mt-1" />
-        </div>
-        <div className=" w-80 h-32 absolute -z-20 m-10 mt-0 rounded-xl bg-gray-950">
+        <Header />
+        <div className=" w-80 h-32 absolute -z-20 m-10 mt-2 rounded-xl bg-gray-950">
           {" "}
           {/*-z-20 es para superpones contenedores*/}
         </div>

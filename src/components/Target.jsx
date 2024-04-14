@@ -6,13 +6,14 @@ import { LuCake } from "react-icons/lu";
 import { BsFacebook } from "react-icons/bs";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
+import { VscGithub } from "react-icons/vsc";
 
 function Target() {
   return (
     <div className="pl-10">
-      <div className="t-main flex flex-col justify-start items-center bg-gray-950 border-black border-2 rounded-xl  mt-12 w-80 h-auto p-16 pb-2 text-gray-100 ">
-        <div className="t-descripcion text-center text-lg bg-gray-800 rounded-md w-48 mt-5  ">
-          Software developer
+      <div className="t-main flex flex-col justify-start items-center bg-gray-950 border-black border-2 rounded-2xl  mt-24 w-80 h-auto p-16 pb-2 text-gray-100 ">
+        <div className="t-descripcion flex text-center justify-center items-center text-xl font-bold bg-gray-800 rounded-md w-52 mt-8 py-1 ">
+          Software Developer
         </div>
         <div className="t-box flex items-center justify-center  m-4">
           <div className="t-face items-center justify-center cursor-pointer hover:bg-indigo-600  bg-gray-800 rounded-md mx-1 text-xl w-7 h-7">
@@ -61,15 +62,15 @@ function Target() {
           </div>
           <div className="t-birthday flex flex-col justify-center items-left mb-4 text-xs pt-2">
             <p className=" absolute pl-3 text-xl ">
-              <LuCake />
+              <VscGithub />
             </p>
             <div className="pl-12">
-              <h3>Birthday</h3>
-              <p>28/02/1997</p>
+              <h3>Github</h3>
+              <p className="cursor-pointer">https://github.com/ReyMQ28</p>
             </div>
           </div>
         </div>
-        <div className="t-linkedin bg-blue-600 rounded-md text-sm cursor-pointer hover:bg-gray-700 text-gray-100 p-1 mt-6 mb-4">
+        <div className="t-linkedin bg-blue-600 rounded-md text-sm cursor-pointer hover:bg-gray-700 text-gray-100 font-bold p-2 px-3 mt-6 mb-4">
           Descargar CV
         </div>
       </div>{" "}
