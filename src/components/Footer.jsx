@@ -12,7 +12,7 @@ const Footer = () => {
           <p>Contacto</p>
         </div>
         <div>
-          <p>GitHub</p>
+          <p className="hover:text-blue-600">GitHub</p>
         </div>
       </div>
       <p>Todos los derechos reservados © 2024.</p>
