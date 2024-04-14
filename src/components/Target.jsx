@@ -11,7 +11,7 @@ import AboutMe from "./AboutMe";
 function Target() {
   return (
     <div className="flex h-auto pl-10">
-      <div className="t-main flex flex-col justify-start items-center bg-gray-950 border-black border-2 rounded-2xl pt-5 w-80 h-auto p-16 pb-2 mr-4 text-gray-100 ">
+      <div className="t-main flex flex-col justify-start items-center bg-gray-950  rounded-2xl pt-5 w-80 h-auto p-16 pb-2 mr-4 text-gray-100 ">
         <div className="t-descripcion flex text-center justify-center items-center text-xl font-bold bg-gray-800 rounded-md w-52 mt-8 py-1 ">
           Software Developer
         </div>
