@@ -1,3 +1,4 @@
+import Certificaciones from "./components/Certificaciones";
 import Footer from "./components/Footer";
 import HistoryDeploy from "./components/HistoryDeploy";
 import Idiomas from "./components/Idiomas";
@@ -15,6 +16,7 @@ function App() {
           <HistoryDeploy />
           <Skills />
           <Idiomas />
+          <Certificaciones />
         </div>
       </div>
       <Footer />
