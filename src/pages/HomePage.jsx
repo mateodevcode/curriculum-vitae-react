@@ -11,9 +11,9 @@ import Header from "../components/Header"
 function HomePage() {
   return (
     <>
+    <Header />
       <div className="flex flex-col justify-start items-center px-80">
         <div className="w-full">
-          <Header />
           <Tittle />
           <Target />
           <HistoryDeploy />
