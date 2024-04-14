@@ -1,9 +1,6 @@
 import React from "react";
 import perfil from "../img/perfil.png";
 
-
-
-
 function Tittle() {
   return (
     <div className=" flex flex-col w-auto h-auto">
@@ -11,7 +8,7 @@ function Tittle() {
         <div className="  w-52 h-52 absolute  ml-24 mt-12 text-transparent ">
           <div>
             <img
-              className="rounded-full border-blue-900 border-solid border-2 w-52 h-52"
+              className="rounded-full  w-52 h-52"
               src={perfil}
               alt="photo"
             />

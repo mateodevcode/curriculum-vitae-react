@@ -70,8 +70,8 @@ function Target() {
             </div>
           </div>
         </div>
-        <div className="t-linkedin bg-blue-600 rounded-md text-sm cursor-pointer hover:bg-gray-700 text-gray-100 font-bold p-2 px-3 mt-6 mb-4">
-          Descargar CV
+        <div className="t-linkedin bg-blue-600 rounded-md text-sm cursor-pointer hover:bg-blue-400 text-gray-100 font-bold p-2 px-3 mt-6 mb-4">
+          Descargar
         </div>
       </div>
       <AboutMe />
