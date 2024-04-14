@@ -32,7 +32,7 @@ const Footer = () => {
               target="_blank"
               className="italic hover:text-gray-400 font-semibold mx-4"
             >
-              Reneiro Quiroz
+              Reneiro Monterrosa
             </a>
           </div>
 
@@ -83,7 +83,7 @@ const Footer = () => {
             target="_blank"
             className="italic hover:text-gray-400"
           >
-            Reneiro Quiroz
+            Reneiro Monterrosa
           </a>
         </div>
       </div>
