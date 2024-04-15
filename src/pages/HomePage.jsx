@@ -10,7 +10,7 @@ import Header from "../components/Header"
 
 function HomePage() {
   return (
-    <>
+    <div id="homepage">
     <Header />
       <div className="flex flex-col justify-start items-center px-64">
         <div className="w-full">
@@ -23,7 +23,7 @@ function HomePage() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 

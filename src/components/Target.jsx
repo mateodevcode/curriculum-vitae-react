@@ -1,4 +1,3 @@
-import React from "react";
 import { HiOutlineDevicePhoneMobile } from "react-icons/hi2";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
@@ -7,10 +6,24 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
 import { VscGithub } from "react-icons/vsc";
 import AboutMe from "./AboutMe";
-import { PDFDownloadLink } from "@react-pdf/renderer";
-import PrintPdf from "./PrintPdf";
+import html2pdf from 'html2pdf.js';
+
 
 function Target() {
+  const descargarCV = () => {
+    const element = document.getElementById('homepage');
+    var opt = {
+      margin:       0,
+      filename:     'curriculum-vitae.pdf',
+      image:        { type: 'jpeg', quality: 0.98 },
+      html2canvas:  { scale: 3 },
+      jsPDF:        { unit: 'in', format: 'a3', orientation: 'landscape' }
+    };
+    html2pdf().from(element).set(opt).save();
+    html2pdf(element, opt);
+  };
+
+
   return (
     <div className="flex h-auto pl-10">
       <div className="t-main flex flex-col justify-start items-center bg-gray-950  rounded-2xl pt-5 w-80 h-auto p-16 pb-2 mr-4 text-gray-100 ">
@@ -72,19 +85,8 @@ function Target() {
             </div>
           </div>
         </div>
-        <div className="t-linkedin bg-blue-600 rounded-md text-sm cursor-pointer hover:bg-blue-400 text-gray-100 font-bold p-2 px-3 mt-6 mb-4">
-          <PDFDownloadLink
-            document={<PrintPdf />}
-            fileName="CurriculumVitae.pdf"
-          >
-            {({ loading }) =>
-              loading ? (
-                <button>loading Document ...</button>
-              ) : (
-                <button>Descargar</button>
-              )
-            }
-          </PDFDownloadLink>
+        <div className="t-linkedin bg-blue-600 rounded-md text-sm cursor-pointer hover:bg-blue-400 text-gray-100 font-bold p-2 px-3 mt-6 mb-4" onClick={descargarCV} >
+          Descargar
         </div>
       </div>
       <AboutMe />
