@@ -11,7 +11,7 @@ const Certificaciones = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center mt-20 mb-40">
+    <div id="certificaciones" className="flex flex-col justify-center items-center mt-20 mb-40">
       <div className="flex flex-col justify-center items-start w-full px-10">
         <div
           className={`flex flex-row justify-start items-center cursor-pointer py-4`}

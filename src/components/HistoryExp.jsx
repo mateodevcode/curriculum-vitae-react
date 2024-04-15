@@ -9,7 +9,7 @@ function HistoryExp() {
   };
 
   return (
-    <div className="flex flex-col justify-center items-start w-full px-10">
+    <div id="experiencia-laboral" className="flex flex-col justify-center items-start w-full px-10">
       <div
         className={`flex flex-row justify-start items-center cursor-pointer py-4`}
         onClick={onclick}

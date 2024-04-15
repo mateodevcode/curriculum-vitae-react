@@ -7,12 +7,12 @@ function Header() {
         <GrLinkedin className="flex justify-center items-center text-indigo-600 absolute rounded-lg bg cursor-pointer w-12 h-12  text-3xl ml-6 " />
       </div>
       <div className="flex justify-between text-sm font-semibold items-center  ">
-        <div className="px-8 cursor-pointer hover:text-blue-700">Experiencia Laboral</div>
-        <div className="px-8 cursor-pointer hover:text-blue-700">Historial de estudios</div>
-        <div className="px-8 cursor-pointer hover:text-blue-700">Complementarios</div>
-        <div className="px-8 cursor-pointer hover:text-blue-700">Skills</div>
-        <div className="px-8 cursor-pointer hover:text-blue-700">Idiomas</div>
-        <div className="px-8 cursor-pointer hover:text-blue-700">Certificaciones</div>
+        <div className="px-8 hover:text-blue-700"><a href="#experiencia-laboral">Experiencia Laboral</a></div>
+        <div className="px-8 hover:text-blue-700"><a href="#historial-estudios">Historial de estudios</a></div>
+        <div className="px-8 hover:text-blue-700"><a href="#complementarios">Complementarios</a></div>
+        <div className="px-8 hover:text-blue-700"><a href="#skills">Skills</a></div>
+        <div className="px-8 hover:text-blue-700"><a href="#idiomas">Idiomas</a></div>
+        <div className="px-8 hover:text-blue-700"><a href="#certificaciones">Certificaciones</a></div>
       </div>
     </div>
   );

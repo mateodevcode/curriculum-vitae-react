@@ -13,7 +13,7 @@ function HistoryComplement() {
   }
   
   return (
-    <div className="flex flex-col justify-center items-start w-full px-10">
+    <div id="complementarios" className="flex flex-col justify-center items-start w-full px-10">
       <div className={`flex flex-row justify-start items-center cursor-pointer py-4`} onClick={onclick}>
         <BiSolidRightArrow className={`text-2xl mr-3 text-gray-600 ${desplegar == true ? "flex" : "hidden"}`} />
         <BiSolidDownArrow className={`text-2xl mr-3 text-gray-600 ${desplegar == true ? "hidden" : "flex"}`} />

@@ -3,7 +3,7 @@ import { skillsLeguajes } from "../data/skills.lenguajes";
 
 function Skills() {
   return (
-    <div className="px-10 w-full mt-20 mb-40">
+    <div id="skills" className="px-10 w-full mt-20 mb-40">
       <h3 className="font-semibold text-3xl hover:text-blue-800 w-min pb-4">SKILLS</h3>
       <div className="w-full flex flex-wrap">
         {skillsLeguajes.map((skill) => (
