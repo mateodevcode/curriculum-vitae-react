@@ -12,7 +12,7 @@ function HomePage() {
   return (
     <div id="homepage">
     <Header />
-      <div className="flex flex-col justify-start items-center px-64">
+      <div className="flex flex-col justify-start items-center px-0 sm:px-10 md:px-20 lg:px-64">
         <div className="w-full">
           <Tittle />
           <Target />

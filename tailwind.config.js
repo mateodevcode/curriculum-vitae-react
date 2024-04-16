@@ -4,14 +4,15 @@ export default {
   theme: {
     extend: {},
     screens: {
-      sm: "350px",
-      // => @media (min-width: 576px) { ... }
+     
+      sm: "360px",
+      // => @media (min-width: 360px) { ... }
 
       md: "960px",
       // => @media (min-width: 960px) { ... }
 
-      lg: "1440px",
-      // => @media (min-width: 1440px) { ... }
+      lg: "1370px",
+      // => @media (min-width: 1370px) { ... }
     },
   },
   // plugins: [require("tailwindcss-animated")],
