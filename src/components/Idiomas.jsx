@@ -7,14 +7,14 @@ const Idiomas = () => {
   const percentagealeman = 10;
 
   return (
-    <div id="idiomas" className="px-10 w-full mt-20 mb-40">
-      <h3 className="font-semibold text-3xl hover:text-blue-800 w-min pb-4">
+    <div id="idiomas" className="w-full lg:px-10 md:px-5 sm:px-2 lg:mt-20 lg:mb-32 md:mt-20 md:mb-32 sm:mt-10 sm:mb-16">
+      <h3 className="font-semibold lg:text-3xl md:text-2xl sm:text-xl hover:text-blue-700 w-min pb-4">
         IDIOMAS
       </h3>
-      <div className="flex flex-row justify-around items-center">
+      <div className="flex flex-row justify-around items-start">
         <div className="w-56 flex flex-col justify-center items-center ">
-          <span className="my-3 text-2xl uppercase font-semibold">Español</span>
-          <div className="w-20">
+          <span className="my-3 lg:text-2xl md:text-2xl sm:text-base uppercase font-semibold">Español</span>
+          <div className="lg:w-20 md:w-20 sm:w-14">
             <CircularProgressbar
               value={percentageEspanol}
               text={`${percentageEspanol}%`}
@@ -30,12 +30,12 @@ const Idiomas = () => {
               })}
             />
           </div>
-          <span className="my-3 text-2xl font-semibold text-gray-400">Nativo</span>
+          <span className="my-3 lg:text-2xl md:text-2xl sm:text-xs font-semibold text-gray-400">Nativo</span>
         </div>
 
         <div className="w-56 flex flex-col justify-center items-center">
-          <span className="my-3 text-2xl uppercase font-semibold">Ingles</span>
-          <div className="w-20">
+          <span className="my-3 lg:text-2xl md:text-2xl sm:text-base uppercase font-semibold">Ingles</span>
+          <div className="lg:w-20 md:w-20 sm:w-14">
             <CircularProgressbar
               value={percentageingles}
               text={`${percentageingles}%`}
@@ -51,12 +51,12 @@ const Idiomas = () => {
               })}
             />
           </div>
-          <span className="my-3 text-2xl font-semibold text-gray-400">B2: Intermedio alto</span>
+          <span className="my-3 lg:text-2xl md:text-2xl sm:text-xs font-semibold text-gray-400">B2: Intermedio alto</span>
         </div>
 
         <div className="w-56 flex flex-col justify-center items-center">
-          <span className="my-3 text-2xl uppercase font-semibold">Aleman</span>
-          <div className="w-20">
+          <span className="my-3 lg:text-2xl md:text-2xl sm:text-base uppercase font-semibold">Aleman</span>
+          <div className="lg:w-20 md:w-20 sm:w-14">
             <CircularProgressbar
               value={percentagealeman}
               text={`${percentagealeman}%`}
@@ -72,7 +72,7 @@ const Idiomas = () => {
               })}
             />
           </div>
-          <span className="my-3 text-2xl font-semibold text-gray-400">A1: Basico</span>
+          <span className="my-3 lg:text-2xl md:text-2xl sm:text-xs font-semibold text-gray-400">A1: Basico</span>
         </div>
       </div>
     </div>

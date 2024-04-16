@@ -9,13 +9,14 @@ import Header from "../components/Header"
 
 
 function HomePage() {
+
   return (
     <div id="homepage">
-    <Header />
-      <div className="flex flex-col justify-start items-center px-64">
+    {/* <Header /> */}
+      <div className={`flex flex-col justify-start items-center lg:px-64 md:px-20 sm:px-0`}>
         <div className="w-full">
-          <Tittle />
-          <Target />
+          {/* <Tittle />   */}
+          {/* <Target /> */}
           <HistoryDeploy />
           <Skills />
           <Idiomas />

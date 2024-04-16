@@ -8,7 +8,7 @@ import mateo from "../img/mateo.jpg";
 const Footer = () => {
   return (
     <div className="flex flex-col justify-between items-center bg-gray-950 w-ful h-full text-white">
-      <div className="flex flex-row justify-around items-start my-40 w-full">
+      <div className="flex flex-wrap flex-row justify-around items-start my-40 w-full">
         <div className="flex flex-col justify-center items-start">
           <div className="flex flex-row justify-center items-center hover:text-blue-600 text-xl font-semibold mb-2">
             <BsPersonCircle className="mx-2 text-2xl" />
