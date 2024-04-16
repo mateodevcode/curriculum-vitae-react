@@ -4,9 +4,15 @@ import { TiThMenu } from "react-icons/ti";
 
 function Header() {
   return (
+<<<<<<< HEAD
     <div className="w-full flex-col sm:flex md:flex-row lg:flex-row justify-around items-center px-7 pr-3 mb-10  ">
       <div className=" flex items-start justify-start cursor-pointer  my-6  w-12 h-12">
         <GrLinkedin className="flex justify-center items-center text-indigo-600 absolute rounded-lg bg cursor-pointer w-12 h-12  text-3xl ml-6 " />
+=======
+    <div className="w-full flex justify-around items-center px-7 pr-3 mb-10 ">
+      <div className=" flex items-start justify- cursor-pointer  my-6  w-12 h-12">
+        <a href="https://www.linkedin.com/" target="_blank"><GrLinkedin className="flex justify-center items-center text-indigo-600 absolute rounded-lg bg cursor-pointer w-12 h-12  text-3xl ml-6 " /></a>
+>>>>>>> 7e2f90ba9806dd65071be8c731c0062d17fd7b63
       </div>
       <div className="flex sm:flex-row md:flex-row lg:flex-row invisible md:visible lg:visible text-sm font-semibold items-center  ">
         <div className="px-0 sm:px-4 md:px8 lg:px-8   hover:text-blue-700">
