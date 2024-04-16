@@ -1,5 +1,3 @@
-import React from "react";
-
 function AboutMe() {
   return (
     <div className="flex flex-col justify-start items-start px-5 ">
