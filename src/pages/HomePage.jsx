@@ -13,8 +13,8 @@ function HomePage() {
     <Header />
       <div className={`flex flex-col justify-start items-center lg:px-64 md:px-20 sm:px-0`}>
         <div className="w-full">
-          {/* <Tittle />
-          <Target /> */}
+          {/* <Tittle /> */}
+          <Target />
           <HistoryDeploy />
           <Skills />
           <Idiomas />
