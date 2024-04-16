@@ -1,4 +1,6 @@
 import { GrLinkedin } from "react-icons/gr";
+import { TiThMenu } from "react-icons/ti";
+
 
 function Header() {
   return (
@@ -29,6 +31,7 @@ function Header() {
           <a href="#certificaciones">Certificaciones</a>
         </div>
       </div>
+      <TiThMenu className="text-4xl absolute visible md:invisible lg:invisible" />
     </div>
   );
 }
