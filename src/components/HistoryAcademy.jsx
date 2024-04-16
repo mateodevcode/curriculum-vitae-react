@@ -6,7 +6,7 @@ import { BiSolidRightArrow, BiSolidDownArrow } from "react-icons/bi";
 
 
 function HistoryAcademy() {
-  const [desplegar, setdesplegar] = useState(true)
+  const [desplegar, setdesplegar] = useState(false)
 
   const onclick = () => {
     setdesplegar(!desplegar)
