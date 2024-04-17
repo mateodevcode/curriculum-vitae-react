@@ -3,7 +3,7 @@ import react from '../img/react.png';
 import html from '../img/html.png';
 import css from '../img/css.png';
 import python from '../img/python.png';
-
+import java from '../img/java.png';
 
 
 export const skillsLeguajes = [
