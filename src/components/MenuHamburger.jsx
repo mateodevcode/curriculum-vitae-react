@@ -1,7 +1,7 @@
 const MenuHamburger = ({menu}) => {
 
   return (
-    <div className={`flex flex-col justify-between items-start text-xl font-semibold  ${menu ? "hidden" : "flex"}`}>
+    <div className={`flex flex-col justify-between items-start text-xl font-semibold  ${menu ? "hidden" : "flex"} my-5 py-5 bg-blue-500/10`}>
       <div className="mx-8 my-2 hover:text-blue-700">
         <a href="#experiencia-laboral">Experiencia Laboral</a>
       </div>
