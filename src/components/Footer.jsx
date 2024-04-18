@@ -33,7 +33,7 @@ const Footer = () => {
               target="_blank"
               className="italic hover:text-gray-400 font-semibold mx-4 lg:text-base md:text-base sm:text-sm"
             >
-              Reneiro Monterrosa
+              Reineiro Monterrosa
             </a>
           </div>
 
