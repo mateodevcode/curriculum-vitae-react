@@ -11,10 +11,12 @@ function HistoryExp() {
 
   return (
     <div
+      rel="preload"
       id="experiencia-laboral"
-      className="flex flex-col justify-center items-start w-full lg:px-10 md:px-5 sm:px-2"
+      className="flex font-display:optional flex-col justify-center items-start w-full lg:px-10 md:px-5 sm:px-2"
     >
       <TituloDesplegable
+        
         nombre={"Experiencia Laboral"}
         onclick={onclick}
         desplegar={desplegar}
