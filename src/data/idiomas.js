@@ -12,6 +12,6 @@ export const idiomas = [
     {
         idioma: "Aleman",
         porcentaje: 10,
-        nivel: "A1: Basico"
+        nivel: "A1: Básico"
     }
 ]

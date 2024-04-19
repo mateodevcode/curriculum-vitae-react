@@ -21,7 +21,11 @@ function Target() {
         <div className="t-main flex flex-col justify-start items-center bg-gray-950 text-gray-100 dark:text-black dark:bg-gray-200 rounded-2xl pt-12 w-80 h-auto sm:px-10">
           <div className="h-52 flex flex-row justify-center items-center">
             <img
-              className="rounded-full w-52 h-52"
+              className="rounded-full w-auto h-auto"
+              rel="preload"
+              fetchpriority="high"
+              as="image"
+              type="image/webp"
               src={perfil}
               alt={`Photo de ${nombre} ${apellido}`}
             />

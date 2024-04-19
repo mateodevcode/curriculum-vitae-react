@@ -8,7 +8,7 @@ import python from '../img/python.png';
 export const skillsLeguajes = [
     {
         id: 1,
-        nombre: 'Javascript',
+        nombre: 'JavaScript',
         img: javascript,
         alt: 'Javascript',
     },

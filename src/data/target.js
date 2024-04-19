@@ -12,6 +12,6 @@ export const targetData = [
     prefijo: "+57",
     telefono: "35555555",
     email: "jhoedoe@gmail.com",
-    direccion: "Calle falsa # 123",
+    dirección: "Calle falsa # 123",
   },
 ];
