@@ -45,7 +45,7 @@ function Skills() {
           ))}
         </div>
       </div>
-      <div className="flex flex-row justify-end items-center">
+     {/*  <div className="flex flex-row justify-end items-center">
         <div
           className="w-min bg-blue-700 hover:bg-blue-400 px-3 py-0.5 text-white font-semibold rounded-lg cursor-pointer"
           onClick={onclick}
@@ -55,7 +55,7 @@ function Skills() {
       </div>
       {/* Modificar componente */}
 
-      <div
+      {/* <div
         className={`w-full m-5 flex-col justify-center items-start ${
           editar ? "hidden" : "flex"
         }`}
@@ -79,7 +79,7 @@ function Skills() {
         </div>
       </div>
 
-      {/* Modificar componente */}
+      Modificar componente */} 
     </>
   );
 }
