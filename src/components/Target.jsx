@@ -1,5 +1,5 @@
 import AboutMe from "./AboutMe";
-import perfil from "../img/perfil.png";
+import profile from "../img/profile.png";
 import { targetData } from "../data/target";
 import IconRedesTarget from "./IconRedesTarget";
 import DatosTarget from "./DatosTarget";
@@ -26,7 +26,7 @@ function Target() {
               fetchpriority="high"
               as="image"
               type="image/webp"
-              src={perfil}
+              src={profile}
               alt={`Photo de ${nombre} ${apellido}`}
             />
           </div>
