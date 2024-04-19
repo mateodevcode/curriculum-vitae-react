@@ -14,5 +14,6 @@ export default {
       // => @media (min-width: 1440px) { ... }
     },
   },
+  darkMode: 'selector'
   // plugins: [require("tailwindcss-animated")],
 };

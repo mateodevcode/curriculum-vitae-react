@@ -34,13 +34,13 @@ const Idiomas = () => {
                   textSize: "20px",
                   pathTransitionDuration: 0.5,
                   pathColor: `rgba(29, 78, 216)`,
-                  textColor: "#000",
+                  textColor: '#1d4ed8',
                   trailColor: "#b5b5b5",
                     // backgroundColor: "#ff0",
                 })}
               />
             </div>
-            <span className="my-3 lg:text-2xl md:text-2xl sm:text-xs font-semibold text-gray-400">
+            <span className="my-3 lg:text-2xl md:text-2xl sm:text-xs font-semibold text-gray-400 dark:text-gray-100">
               {idioma.nivel}
             </span>
           </div>

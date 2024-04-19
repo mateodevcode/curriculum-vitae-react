@@ -9,7 +9,7 @@ import Header from "../components/Header";
 
 function HomePage() {
   return (
-    <div id="homepage">
+    <div id="homepage" className="dark:bg-gray-950 dark:text-white">
     <Header />
       <div className={`flex flex-col justify-start items-center lg:px-64 md:px-20 sm:px-0`}>
 

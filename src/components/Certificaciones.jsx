@@ -47,7 +47,7 @@ const Certificaciones = () => {
               <h3 className="lg:pl-10 md:pl-8 sm:pl-5 lg:text-3xl md:text-2xl sm:text-xl font-semibold hover:text-blue-700">
                 {cert.nombre}
               </h3>
-              <p className="lg:pl-10 md:pl-8 sm:pl-5 font-semibold italic text-gray-500">
+              <p className="lg:pl-10 md:pl-8 sm:pl-5 font-semibold italic text-gray-500 dark:text-gray-100">
                 {cert.academia}
               </p>
               <a href={cert.url} target="_blank">

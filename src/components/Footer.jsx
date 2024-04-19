@@ -7,7 +7,7 @@ import mateo from "../img/mateo.jpg";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col justify-between items-center bg-gray-950 w-ful h-full text-white">
+    <div className="flex flex-col justify-between items-center bg-gray-950 w-ful h-full text-white dark:bg-red-600/50 dark:text-gray-100">
       <div className="flex flex-wrap flex-row justify-around items-start mt-40 mb-20 w-full">
 
         <div className="flex flex-col justify-center items-start mb-16">

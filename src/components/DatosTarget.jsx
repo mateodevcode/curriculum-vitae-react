@@ -9,7 +9,7 @@ const DatosTarget = () => {
 
   return (
     <>
-      <div className="t-phone flex flex-col justify-center items-left  border-gray-700 border-b-2 mt-4 text-xs pb-2">
+      <div className="t-phone flex flex-col justify-center items-left border-gray-700 border-b-2 mt-4 text-xs pb-2">
         <p className=" absolute pl-3 text-xl ">
           <HiOutlineDevicePhoneMobile />
         </p>

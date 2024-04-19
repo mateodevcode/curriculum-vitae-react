@@ -33,7 +33,7 @@ function Skills() {
           {skillsLeguajes.map((skill) => (
             <div
               key={skill.id}
-              className="flex flex-row jus items-center border-blue-700 hover:text-white hover:bg-gray-950 border-2 lg:rounded-xl md:rounded-xl sm:rounded-lg w-max lg:px-3 md:px-3 sm:px-2 lg:py-1 md:py-1 sm:py-0 m-1.5 font-semibold cursor-pointer hover:shadow-xl hover:shadow-blue-900 lg:text-base md:text-base sm:text-sm"
+              className="flex flex-row jus items-center border-blue-700 dark:bg-white dark:text-black hover:text-white hover:bg-gray-950 border-2 lg:rounded-xl md:rounded-xl sm:rounded-lg w-max lg:px-3 md:px-3 sm:px-2 lg:py-1 md:py-1 sm:py-0 m-1.5 font-semibold cursor-pointer hover:shadow-xl hover:shadow-blue-900 lg:text-base md:text-base sm:text-sm"
             >
               <img
                 src={skill.img}

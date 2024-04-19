@@ -8,12 +8,12 @@ const TituloDesplegable = ({nombre, onclick, desplegar}) => {
       onClick={onclick}
     >
       <BiSolidRightArrow
-        className={`lg:text-2xl md:text-xl sm:text-base lg:mr-3 md:mr-3 sm:mr-2 text-gray-600 ${
+        className={`lg:text-2xl md:text-xl sm:text-base lg:mr-3 md:mr-3 sm:mr-2 text-gray-600 dark:text-gray-100 ${
           desplegar == true ? "flex" : "hidden"
         }`}
       />
       <BiSolidDownArrow
-        className={`lg:text-2xl md:text-xl sm:text-base lg:mr-3 md:mr-3 sm:mr-2 text-gray-600 ${
+        className={`lg:text-2xl md:text-xl sm:text-base lg:mr-3 md:mr-3 sm:mr-2 text-gray-600 dark:text-gray-100 ${
           desplegar == true ? "hidden" : "flex"
         }`}
       />
