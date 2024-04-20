@@ -1,24 +1,24 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { skillsLeguajes } from "../data/skills.lenguajes";
-import { useForm } from "react-hook-form";
-import { crearSkills } from "../utils/config";
+// import { useForm } from "react-hook-form";
+// import { crearSkills } from "../utils/config";
 
 function Skills() {
-  const [editar, setEditar] = useState(false);
-  const {
-    register,
-    handleSubmit,
-  } = useForm();
+  // const [editar, setEditar] = useState(false);
+  // const {
+  //   register,
+  //   handleSubmit,
+  // } = useForm();
 
-  const onSubmit = (data) => {
-    console.log(data);
-    console.log(crearSkills(data));
-    console.log(crearSkills({ nombre: 'Java', img: 'java.png' }));
-  }
+  // const onSubmit = (data) => {
+  //   console.log(data);
+  //   console.log(crearSkills(data));
+  //   console.log(crearSkills({ nombre: 'Java', img: 'java.png' }));
+  // }
 
-  const onclick = () => {
-    setEditar(!editar);
-  };
+  // const onclick = () => {
+  //   setEditar(!editar);
+  // };
 
   return (
     <>

@@ -23,8 +23,6 @@ function Target() {
             <img
               className="rounded-full w-auto h-auto"
               rel="preload"
-              fetchpriority="high"
-              as="image"
               type="image/webp"
               src={profile}
               alt={`Photo de ${nombre} ${apellido}`}

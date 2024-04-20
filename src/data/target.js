@@ -1,7 +1,7 @@
 export const targetData = [
   {
-    nombre: "Name",
-    apellido: "Last Name",
+    nombre: "John",
+    apellido: "Doe ",
     cargo: "Software Developer",
     redes: {
       facebook: "https://facebook.com",
